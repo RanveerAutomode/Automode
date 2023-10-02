@@ -1,0 +1,114 @@
+/* Antd Select Component */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+.ant-select,
+.ant-select * {
+  /* font-family: "__Inter_0ec1f4", "__Inter_Fallback_0ec1f4" !important; */
+  font-family: "Inter", sans-serif !important;
+}
+
+.ant-select-item-option-content {
+  /* font-family: "__Inter_0ec1f4", "__Inter_Fallback_0ec1f4" !important; */
+  font-family: "Inter", sans-serif !important;
+}
+
+.custom-select .ant-select-selector {
+  @apply border-none shadow-none bg-transparent !important;
+  align-items: center;
+}
+
+.custom-select .ant-select-multiple .ant-select-selector {
+  @apply p-0 !important;
+}
+
+.custom-select .ant-select-selection-search {
+  @apply inset-x-0 !important;
+}
+.custom-select .custom-select .ant-select-selection-search {
+  @apply inset-x-[8px] !important;
+}
+
+.ant-select-selector {
+  @apply p-0 !important;
+}
+
+.custom-select .ant-select-selection-placeholder {
+  @apply text-neutral-300 text-b2 !important;
+}
+
+.custom-select .ant-select-dropdown {
+  @apply w-full left-0 top-[40px] !important;
+}
+
+/* .ant-select-item {
+  @apply hover: bg-secondary-50 focus-within:bg-primary-50 active:bg-secondary-50;
+} */
+
+.custom-select
+  .ant-select-item-option-active:not(.ant-select-item-option-selected) {
+  background-color: transparent !important;
+}
+
+.custom-select .ant-select-item {
+  background-color: transparent;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-select .ant-select-item:hover {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.secondary.50") !important;
+}
+
+.custom-select .ant-select-item:focus:hover {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.secondary.50") !important;
+}
+
+.custom-select .ant-select-item-option-selected {
+  background-color: theme("colors.primary.50") !important;
+}
+
+.ant-select-arrow {
+  @apply right-0 !important;
+}
+
+.ant-select-selection-overflow-item > .ant-select-selection-item {
+  @apply bg-primary-50 px-2 !important;
+}
+
+.ant-select-selection-item-content {
+  @apply flex items-center justify-center text-primary-500 text-caption font-medium !important;
+}
+
+.ant-select-selection-item-remove {
+  @apply text-blue-500 !important;
+}
+
+/* Antd Select Component End */
+
+/* Multiple select start */
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-select-multiple
+  .ant-select-selection-item-remove
+  svg {
+  @apply inline-block text-primary-500 !important;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled)
+  .ant-select-item-option-state {
+  @apply text-primary-500 !important;
+}
+
+.ant-select-multiple .ant-select-selection-placeholder {
+  inset-inline-start: 1px !important;
+}
+
+.ant-select-multiple .ant-select-selection-search {
+  margin-inline-start: 0px !important;
+}
+
+/* Multiple select end */

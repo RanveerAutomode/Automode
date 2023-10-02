@@ -1,0 +1,138 @@
+[
+    {
+      "title": "Dashboard",
+      "id": "dashboard-btn",
+      "type": "btn",
+      "icon": "Element4",
+      "path": "/dashboard"
+    },
+    {
+      "title": "Item & Services",
+      "id": "item-&-services-btn",
+      "type": "btn",
+      "icon": "I3Dcube",
+      "path": "/item-&-services"
+    },
+    {
+      "title": "Banking",
+      "id": "banking-btn",
+      "type": "btn",
+      "icon": "Bank",
+      "path": "/banking"
+    },
+    {
+      "title": "Business Accounts",
+      "id": "business-accounts-btn",
+      "type": "btn",
+      "icon": "UserOctagon",
+      "path": "/messages"
+    },
+    {
+      "title": "Chart of Accounts",
+      "id": "chart-of-accounts-btn",
+      "type": "btn",
+      "icon": "BookSquare",
+      "path": "/chart-of-accounts"
+    },
+    {
+        "title": "TRANSACTIONS",
+        "id": "transaction-btn",
+        "type": "group"
+      },
+    {
+      "title": "Sales",
+      "id": "sales-btn",
+      "type": "dropdown_btn",
+      "icon": "ShoppingCart",
+      "path": "/sales",
+      "childrens":[{
+        "title": "Estimate",
+        "id": "estimate-btn",
+        "path": "/sales/estimate"
+      },
+      {
+        "title": "Sales Order",
+        "id": "sales-order-btn",
+        "path": "/sales-order"
+      },
+      {
+        "title": "Invoice",
+        "id": "invoice-btn",
+        "path": "/sales/invoice"
+      },
+      {
+        "title": "Payment Received",
+        "id": "payment-received-btn",
+        "path": "/sales/payment-received"
+      },
+      {
+        "title": "Credit Note",
+        "id": "credit-note-btn",
+        "path": "/sales/credit-note"
+      }
+    ]
+    },
+    {
+      "title": "Purchase",
+      "id": "purchase-btn",
+      "type": "btn",
+      "icon": "Bag",
+      "path": "/purchase"
+    },
+    {
+        "title": "Investment",
+        "id": "investment-btn",
+        "type": "btn",
+        "icon": "Diagram",
+        "path": "/purchase"
+      },
+      {
+        "title": "Production",
+        "id": "production-btn",
+        "type": "btn",
+        "icon": "Hex",
+        "path": "/production"
+      },
+      {
+        "title": "Job Work",
+        "id": "job-work-btn",
+        "type": "btn",
+        "icon": "Okb",
+        "path": "/job-work"
+      },
+      {
+        "title": "Taxation",
+        "id": "taxation-btn",
+        "type": "btn",
+        "icon": "PercentageCircle",
+        "path": "/taxation"
+      },
+      {
+      "title": "OTHERS",
+      "id": "other-btn",
+      "type": "group"
+      },
+      {
+        "title": "Workflow Rules",
+        "id": "workflow-rules--btn",
+        "type": "btn",
+        "icon": "Data",
+        "path": "/workflow-rules"
+      },
+      {
+        "title": "Recurring Transaction",
+        "id": "recurring-transaction-btn",
+        "type": "btn",
+        "icon": "MoneyTime",
+        "path": "/recurring-transaction"
+      },
+      {
+        "title": "Task",
+        "id": "task-btn",
+        "type": "btn",
+        "icon": "Task",
+        "path": "/task"
+      }
+
+  ]
+  

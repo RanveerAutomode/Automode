@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Dashboard",
+    "id": "dashboard-btn",
+    "type": "btn",
+    "icon": "Element4",
+    "path": "/dashboard"
+  },
+  {
+    "title": "Organization",
+    "id": "organization-btn",
+    "type": "btn",
+    "icon": "Buildings2",
+    "path": "/organization"
+  },
+  {
+    "title": "Profile",
+    "id": "profile-btn",
+    "type": "btn",
+    "icon": "profile",
+    "path": "/profile"
+  },
+  {
+    "title": "Messages",
+    "id": "messages-btn",
+    "type": "btn",
+    "icon": "Messages1",
+    "path": "/messages"
+  },
+  {
+    "title": "Tasks",
+    "id": "task-btn",
+    "type": "btn",
+    "icon": "Task",
+    "path": "/task"
+  },
+  {
+    "title": "Security",
+    "id": "security-btn",
+    "type": "btn",
+    "icon": "SecuritySafe",
+    "path": "/security"
+  },
+  {
+    "title": "Analytics",
+    "id": "analytics-btn",
+    "type": "btn",
+    "icon": "PresentionChart",
+    "path": "/messages"
+  },
+
+  {
+    "title": "GENERAL",
+    "id": "general-btn",
+    "type": "group"
+  },
+
+  {
+    "title": "Settings",
+    "id": "settings-btn",
+    "type": "btn",
+    "icon": "Setting2",
+    "path": "/settings"
+  },
+
+  {
+    "title": "Support & Feedback",
+    "id": "support-btn",
+    "type": "btn",
+    "icon": "Messages",
+    "path": "/support-and-feedback"
+  },
+
+  {
+    "title": "Help Articles",
+    "id": "help-btn",
+    "type": "btn",
+    "icon": "Lifebuoy",
+    "path": "/help-articles"
+  }
+]

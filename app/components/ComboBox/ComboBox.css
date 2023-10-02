@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+.ant-select,
+.ant-select * {
+  /* font-family: "__Inter_0ec1f4", "__Inter_Fallback_0ec1f4" !important; */
+  font-family: "Inter", sans-serif !important;
+}
+
+.ant-select-selector {
+  @apply border-none shadow-none bg-transparent px-[8px] !important;
+}
+
+.ant-select-selection-search {
+  @apply inset-x-[8px] !important;
+}
+
+.ant-select-selection-placeholder {
+  @apply text-neutral-300 !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-selected) {
+  background-color: transparent !important;
+}
+
+/* .combo-box .ant-select-dropdown {
+  @apply w-full left-0 top-[60px] px-0 pt-2 border shadow-xl border-t border-t-neutral-300 !important;
+} */
+
+/* Target the OptGroup label */
+.ant-select-item.ant-select-item.ant-select-item-group {
+  pointer-events: none !important; /* disable pointer events */
+  /* font-family: "__Inter_0ec1f4", "__Inter_Fallback_0ec1f4" !important; */
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Disable the hover effect on the OptGroup label */
+.ant-select-item.ant-select-item.ant-select-item-group:hover {
+  background-color: transparent !important;
+}
+
+.ant-select-item,
+.ant-select-item-group {
+  background-color: transparent;
+  padding: 8px 20px !important;
+  display: flex;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  justify-content: center;
+  align-items: center;
+  color: theme("colors.neutral.700") !important;
+}
+
+.ant-select-item-option-content {
+  @apply font-normal !important;
+}
+
+.ant-select-item:hover {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.secondary.50") !important;
+}
+
+.ant-select-item:focus:hover {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.secondary.50") !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: theme("colors.primary.50") !important;
+}
+
+.ant-select-item-option-content {
+  @apply text-neutral-600 !important;
+}
+
+.ant-select-item-option-content {
+  /* font-family: "__Inter_0ec1f4", "__Inter_Fallback_0ec1f4" !important; */
+  font-family: "Inter", sans-serif !important;
+}
